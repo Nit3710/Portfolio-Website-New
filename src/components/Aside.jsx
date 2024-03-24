@@ -1,4 +1,4 @@
-import myimage from '/images/tree.jpg'
+import myimage from '/images/nitesh.jpg'
 import { GiCalendar, GiClawSlashes, GiMailbox, GiPhone } from 'react-icons/gi'
 const Aside = () => {
     return (

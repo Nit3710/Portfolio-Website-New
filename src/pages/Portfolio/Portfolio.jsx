@@ -1,4 +1,4 @@
-import  { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { FaRegEye } from 'react-icons/fa';
 
 const Portfolio = () => {

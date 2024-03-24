@@ -1,5 +1,5 @@
 import myimage from '/images/nitesh.jpg'
-import { GiCalendar, GiClawSlashes, GiMailbox, GiPhone } from 'react-icons/gi'
+import { GiCalendar, GiClawSlashes, GiMailbox, GiPhone,GiMayanPyramid } from 'react-icons/gi'
 const Aside = () => {
     return (
         <aside className='sidebar'>
@@ -48,7 +48,7 @@ const Aside = () => {
                     </li>
                     <li className='contact-item'>
                         <div className='icon-box'>
-                            <GiMailbox />
+                            <GiMayanPyramid />
                         </div>
                         <div className='contact-info'>
                             <p className='contact-title'>Location</p>
@@ -57,7 +57,28 @@ const Aside = () => {
                     </li>
 
                 </ul>
-            </div>
+                <div className="separator"></div>
+
+          <ul className="social-list">
+            <li className="social-item">
+              <a href="#" className="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li className="social-item">
+              <a href="#" className="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li className="social-item">
+              <a href="#" className="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
         </aside>
     )
 }
